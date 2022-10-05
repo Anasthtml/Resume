@@ -1,0 +1,257 @@
+body {
+    padding: 0;
+	margin: 0;
+}
+
+/* main styles */
+.main {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 1200px;
+    margin: 0px auto;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.main_content {
+    background: #FFFFFF;
+    box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
+    padding: 105px 90px;
+}
+
+/* about styles */
+.about {
+    margin-bottom: 40px;
+}
+
+.about_position {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    margin-bottom: 20px;
+}
+
+.about_name {
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 55px;
+    margin-bottom: 25px;
+}
+
+.about_description {
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+    max-width: 400px;
+}
+
+/* projects styles */
+.projects {
+    margin-bottom: 51px;
+}
+
+.title {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    margin-bottom: 10px;
+}
+
+.project_list {
+    padding: 0;
+    margin-left: 15px;
+}
+
+.project_item {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.project {
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+}
+
+.project a {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+    text-decoration: none;
+}
+
+.project_span {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    color: #000000; 
+}
+
+/* work styles */
+
+.experience {
+    margin-bottom: 20px;
+}
+
+.titleh4 {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    margin: 12px 0 11px;
+}
+
+.orange{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FB6D3A;
+}
+
+.date {
+    font-size: 12px;
+    line-height: 15px;
+    color: #A8A8A8;
+    margin-bottom: 8px;
+}
+
+.experience_text {
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+    max-width: 509px;
+}
+
+/* education styles */
+.education {
+   margin-top: 43px;
+}
+
+.titleh42 {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    margin-bottom: 12px;
+}
+
+.sitebar {
+    background: #1E2939;
+    padding-top: 40px;
+    width: 370px;
+}
+
+.photo {
+    width: 370px;
+    margin-bottom: 50px;
+}
+
+.sitebar_title {
+    font-weight: 700;
+    font-style: normal;
+    font-size: 22px;
+    line-height: 27px;
+    color: #FFFFFF;
+    margin-bottom: 10px;
+}
+
+.contacts, .tech_skills, .soft_skills {
+    margin-left: 40px;
+}
+
+.contacts {
+    margin-bottom: 50px;
+}
+
+.contact_type {
+    font-weight: 700;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #FFFFFF;
+    margin-right: 10px;
+
+}
+
+.contact_link {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #FFFFFF;
+    opacity: 0.5;
+}
+
+.tech_skills {
+    margin-bottom: 45px;
+}
+
+.tech_skills_list, .soft_skills_list{
+    padding: 0;
+    margin-left: 15px;
+}
+
+.tech_skills_list li, .soft_skills_list li {
+    color: #FB6D3A;
+}
+
+.tech_skills_list span, .soft_skills_list span {
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;  
+}
+
+
+/*Responsive*/
+
+
+/* 992px - 1200px */
+@media screen and (max-width: 1200px) {
+    .main {
+        width: 1200px;
+       
+    }
+    .sitebar, .photo {
+        width: 370px;
+    }
+    
+
+}
+
+/* 768px - 992px */
+@media screen and (max-width: 992px) {
+    .main {
+        width: 780px;
+    }
+    .sitebar, .photo {
+        width: 150px;
+    }
+    .main_content {
+        padding: 20px;
+        max-width: 500;
+    }
+    .contacts, .tech_skills, .soft_skills {
+        margin-left: 20px;
+    }
+}
+
+/* 576px - 768px */
+@media screen and (max-width: 768px) {
+    .main {
+        width: 650px;
+    }
+    .sitebar, .photo {
+        width: 150px;
+        font-size: small;
+    }
+    .main_content {
+        padding-left: 10px;
+        max-width: 400;
+    }
+}
+
+/* 320px - 576px */
+@media screen and (max-width: 576px) {
+
+} 
